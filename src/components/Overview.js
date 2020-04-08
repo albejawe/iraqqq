@@ -47,7 +47,7 @@ const Overview = ({confirmed, recovered, deaths, lastUpdate}) => {
             color="textSecondary"
             gutterBottom
           >
-            Total Confirmed
+            ألاصابات
           </Typography>
         </Card>
         <Card className={classes.dataCard}>
@@ -59,7 +59,7 @@ const Overview = ({confirmed, recovered, deaths, lastUpdate}) => {
             color="textSecondary"
             gutterBottom
           >
-            Total Recovered
+            المتعافون
           </Typography>
         </Card>
         <Card className={classes.dataCard}>
@@ -71,7 +71,7 @@ const Overview = ({confirmed, recovered, deaths, lastUpdate}) => {
             color="textSecondary"
             gutterBottom
           >
-            Total Deaths
+            الوفيات 
           </Typography>
         </Card>
       </div>
