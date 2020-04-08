@@ -89,7 +89,7 @@ const CustomTooltip = ({active, payload, lastUpdate}) => {
           noWrap
           className={classes.tooltipComment}
         >
-          click bars to show the country daily reports as below
+          اضغط على الاعمده لمشاهدة التقرير اليومي
         </Typography>
       </Paper>
     )
@@ -149,7 +149,7 @@ const CountryBarChart = ({data, lastUpdate, handleClick, title, color}) => {
           <YAxis
             tick={{fontSize: "0.7rem", overflow: "hidden", fill: "#000"}}
             width={40}
-            name="country"
+            name="البلد"
             type="category"
             dataKey="countryCode"
             onClick={handleClickIndex}
