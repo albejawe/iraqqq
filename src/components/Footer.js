@@ -17,11 +17,11 @@ const Footer = () => {
   return (
     <Box p={4}>
       <Typography variant="body2" color="textSecondary" align="center">
-        {"This statistics for COVID-19 get updated every 8 hours via "}
+        {"يتم التحديث كل 8 دقائق  عبر : "}
         <Link color="primary" href="https://github.com/mathdroid/covid-19-api">
           mathdroid API
         </Link>
-        {", which accesses data by "}
+        {", يتم الوصول عن طريق : "}
         <Link
           color="primary"
           href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
@@ -31,13 +31,13 @@ const Footer = () => {
         .
       </Typography>
       <Typography variant="body2" color="textSecondary" align="center">
-        {"Data Source "}
+        {"المصادر : "}
         <Link color="primary" href={dataSource}>
           {dataSource}
         </Link>
         .
         <br />
-        {"Site Source "}
+        {"المواقع : "}
         <Link color="primary" href={siteSource}>
           {siteSource}
         </Link>
