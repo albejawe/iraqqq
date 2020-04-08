@@ -1,11 +1,11 @@
 module.exports = {
   pathPrefix: "/COVID19-Worldwide-Stats",
   siteMetadata: {
-    title: `COVID-19`,
-    description: `Coronavirus COVID-19 Statistics Worldwide`,
+    title: `تجربه`,
+    description: `تجربه`,
     author: `Maxine Chen`,
-    siteSource: `https://github.com/maxMaxineChen/COVID19-Worldwide-Stats.github.io`,
-    dataSource: `https://github.com/maxMaxineChen/COVID-19-worldwide-json-data-script`,
+    siteSource: `تجربه`,
+    dataSource: `تجربه`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,9 +21,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Coronavirus COVID-19 Statistics Worldwide",
-        short_name: "COVID-19 Stats",
-        start_url: "https://maxmaxinechen.github.io/COVID19-Worldwide-Stats",
+        name: "تجربهتجربهتجربهتجربه",
+        short_name: "تجربهتجربهتجربهتجربهتجربهتجربه",
+        start_url: "تجربهتجربهتجربهتجربهتجربهتجربه",
         background_color: "#fafafa",
         theme_color: "#008dc9",
         display: "standalone",
